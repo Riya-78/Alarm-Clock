@@ -1,0 +1,96 @@
+/* html,body {
+            width: 100%;
+            height: 100%
+        } */
+body {
+  /* font-family: 'Baloo Bhai 2', cursive; */
+  /* color: white; */
+  margin: 0px;
+  padding: 0px;
+  background: url("landscape2 clock.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  /* opacity: 0.5;  */
+}
+.container {
+  color: white;
+}
+.date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sisters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#num {
+  margin-bottom: 0px;
+  padding: 2px;
+  font-size: 120px;
+  display: inline-block;
+}
+
+#ampm {
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#dait {
+  font-size: 60px;
+  margin-top: 180px;
+  margin-bottom: 0px;
+}
+
+.three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  gap: 10px;
+}
+
+.same {
+  margin-top: 20px;
+  border-radius: 6px;
+  align-self: center;
+  cursor: pointer;
+}
+
+.same:hover {
+  background-color: rgb(164, 166, 168);
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+#stop {
+  /* visibility: hidden; */
+  margin-top: 20px;
+}
+
+input {
+    padding: 10px 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}

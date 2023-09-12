@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="alarm-favicon.png" type="image/x-icon">
+    <!-- <img id = "img" src=".jpg" alt="error"> -->
+</head>
+
+<body>
+    <div class="container">
+        <div class="date">
+            <div id="dait"></div>
+            <div class="sisters">
+                <div id="num"></div>
+                <div id="ampm"></div>
+            </div>
+        </div>
+        <div class=three>
+            <div class="boxes">
+                <input id="hr" type="text" placeholder="hours">
+                <input id="min" type="text" placeholder="minutes" value="">
+            </div>
+            <div class="btns">
+                <input class="same" id="btn" type="button" value="Set Alarm" onclick="readData()">
+                <input class="same" id="stop" type="button" value="Stop Alarm">
+            </div>
+        </div>
+    </div>
+    <script src="alarm.js"></script>
+</body>
+<!-- onclick="Stopalarm()" -->
+
+</html>
